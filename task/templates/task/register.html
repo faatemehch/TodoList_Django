@@ -1,0 +1,28 @@
+{% extends 'base/main_layout.html' %}
+{% block content %}
+    <div class="row mt-5 mb-5">
+        <div class="col-lg-5 col-md-12 col-sm-12 mt-5 shadow" id="register_style">
+            <h4 class="text-center">Register</h4>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                {#                <div>#}
+                {#                    <label>Username:</label>#}
+                {#                    <input type="Text">#}
+                {#                </div>#}
+                {#                <br>#}
+                {#                <div>#}
+                {#                    <label>Password:</label>#}
+                {#                    <input type="password">#}
+                {#                </div>#}
+                {#                <br>#}
+                {#                <div>#}
+                {#                    <label>rePassword:</label>#}
+                {#                    <input type="password">#}
+                {#                </div>#}
+                {#                <br>#}
+                <button type="submit" class="button_login_register mb-2">Register</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

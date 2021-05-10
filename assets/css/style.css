@@ -1,0 +1,321 @@
+
+a {
+    text-decoration: none !important;
+}
+
+#nav_style {
+    background-color: #ffe5d9;
+    width: 100%;
+}
+
+#nav_style button {
+    background-color: #d8e2dc;
+    color: black;
+}
+
+.nav-item {
+    text-decoration: none !important;
+    color: #595758;
+    background-color: #d8e2dc;
+    box-shadow: 3px 3px #5e6472;
+    margin-right: 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+    display: inline;
+}
+
+.nav-item:hover {
+    text-decoration: none !important;
+    background-color: #595758;
+    color: #aed9e0;
+    box-shadow: 3px 3px #d8e2dc;
+    margin-right: 10px;
+    display: inline;
+}
+
+#user_component {
+    background-color: cornsilk;
+    margin: 20px auto auto auto;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#user_component h6 a {
+    color: black;
+}
+
+#user_component h6 a:hover {
+    color: #ff006e;
+}
+
+table {
+    width: 100%;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 3px;
+    max-height: 300px;
+    font-size: 15px;
+}
+
+/* .delete_task {
+    color: #457b9d;
+}
+
+.delete_task:hover {
+    color: cornflowerblue;
+} */
+
+.update_task {
+    color: #ef476f;
+}
+
+.update_task:hover {
+    color: #f28482;
+}
+
+.numbering_table {
+    width: 3%
+}
+
+.task_title {
+    width: 55%;
+}
+
+.task_complete {
+    width: 5%;
+}
+
+@media (min-width: 768px) {
+    #user_component {
+        width: 60%;
+    }
+    .numbering_table {
+        width: 5%
+    }
+    .task_title {
+        width: 65%;
+    }
+    .task_complete {
+        width: 5%;
+    }
+    .nav-item {
+        margin-top: 0px;
+    }
+    #register_style,
+    #login_style {
+        margin: auto;
+    }
+    #add_new_task {
+        width: 60%;
+    }
+}
+
+tr:hover {
+    background-color: #faf3dd;
+}
+
+span {
+    color: #ef476f;
+}
+
+
+/*----Login----*/
+
+#login_style {
+    width: 100%;
+    background-color: #fef9ef;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+
+/*----Register----*/
+
+#register_style {
+    width: 100%;
+    background-color: #fef9ef;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.button_login_register {
+    background-color: #33658a;
+    color: #fffdf7;
+    border-radius: 3px;
+    padding: 4px 4px 4px 4px;
+    /*margin: 10px auto auto auto;*/
+    border: none;
+    height: 40px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.button_login_register:hover {
+    color: #33658a;
+    background-color: #c6def1;
+    border-radius: 3px;
+    padding: 4px 4px 4px 4px;
+    /*margin: 10px auto auto auto;*/
+    border: none;
+    height: 40px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#register_style input label {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#task_count:hover h6 {
+    color: #ff006e;
+}
+
+#task_count:hover span {
+    color: black;
+}
+
+
+/*add new task*/
+
+#add_new_task {
+    background-color: cornsilk;
+    margin: 20px auto auto auto;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+#add_new_task_btn {
+    background-color: #33658a;
+    color: #c6def1;
+    border-radius: 7px;
+    padding: 4px 4px 4px 4px;
+    margin: 10px auto 10px auto;
+    border: none;
+    height: 40px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#add_new_task_btn:hover {
+    color: #33658a;
+    background-color: #c6def1;
+}
+
+#add_new_task,
+input[type=text],
+input[type=checkbox],
+input[type=password],
+input[type=email],
+label,
+#forgot_pass,
+#delete_task {
+    width: 70%;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+#delete_task {
+    background-color: cornsilk;
+    margin: 20px auto auto auto;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+#delete_task_button {
+    background-color: #33658a;
+    color: #c6def1;
+    border-radius: 7px;
+    padding: 4px 4px 4px 4px;
+    margin: 10px 10px 10px 10px;
+    border: none;
+    height: 40px;
+    width: 30%;
+}
+
+#delete_item_btn_div {
+    direction: rtl;
+}
+
+#delete_task_button:hover {
+    color: #33658a;
+    background-color: #c6def1;
+}
+
+#edit_user_info_div {
+    background-color: cornsilk;
+    margin: 20px auto auto auto;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+#update_user_info_btn {
+    background-color: #33658a;
+    color: #c6def1;
+    border-radius: 7px;
+    padding: 4px 4px 4px 4px;
+    margin: 10px auto 10px auto;
+    border: none;
+    height: 40px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#update_user_info_btn:hover {
+    background-color: #c6def1;
+    color: #33658a;
+}
+
+
+body {
+    background-color: #d8e2dc;
+    overflow-x: hidden;
+    font-family: 'Original Surfer', cursive;
+}
+h6:hover{
+color: #ff006e;
+}
+
+/* #error_404:hover{
+color: #ff006e;
+} */
+.animate {
+    height: 200px;
+    width: 100%;
+    animation: animate_bg 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+    0%   {color:#ef476f;}
+    20%  {color:#33658a;}
+    40% {color:#e76f51;}
+    60% {color:#480ca8;}
+    80%  {color:#f94144;}
+    100% {color:#84a59d;}
+}
+#search_btn{
+color: #aed9e0;
+background-color: #33658a;
+}
+#search_btn:hover {
+    background-color: #aed9e0;
+    color: #33658a;
+}
+#search_form{
+    display: block;
+}

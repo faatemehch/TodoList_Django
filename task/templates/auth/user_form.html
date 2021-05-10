@@ -1,0 +1,11 @@
+{% extends 'base/main_layout.html' %}
+{% block  content %}
+    <h4 class="text-center mt-4 mb-5">Update Your Username</h4>
+    <div id="edit_user_info_div" class="mt-5">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" id="update_user_info_btn" class="btn mb-3">Update</button>
+        </form>
+    </div>
+{% endblock %}

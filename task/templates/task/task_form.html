@@ -1,0 +1,16 @@
+{% extends 'base/main_layout.html' %}
+{% block content %}
+    <div>
+        <h3 class="text-center mt-3 mb-3">Add New Task</h3>
+        <div id="add_new_task" class="mt-5">
+            <form method="post">
+                {% csrf_token %}
+                <label>Your New Task title:</label>
+                {{ form.title_task }}
+                <label>Complete The Task:</label>
+                {{ form.complete }}
+                <button type="submit" id="add_new_task_btn" class="mt-3 mb-2">Submit</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
