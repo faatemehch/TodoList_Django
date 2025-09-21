@@ -29,6 +29,6 @@ A Django-based web application
 4. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-<hr/>
-## Demo
-<p><img src="![Screen Recording 2025-09-21 at 6 20 02 PM](https://github.com/user-attachments/assets/1ecd280e-de53-4b25-978f-94595ddaf375)"></p>
+   
+<p><img src="![to-to-list](https://github.com/user-attachments/assets/572c27f0-84d1-4c07-b076-5dd7201a90e3)
+"></p>
