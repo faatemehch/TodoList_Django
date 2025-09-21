@@ -1,9 +1,5 @@
-
-https://github.com/user-attachments/assets/dc51f2c8-5baf-465c-911f-595920e47f13
 # To Do List App
 A Django-based web application
-
-
 
 ## Technologies Used 🛠️
 
