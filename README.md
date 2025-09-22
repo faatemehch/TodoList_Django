@@ -26,5 +26,4 @@ A Django-based web application
    ```bash
    pip install -r requirements.txt
 ### Demo
-<p><img src="![to-to-list](https://github.com/user-attachments/assets/c613909c-b102-450c-8ba7-fd8a7f344b00)
-"></p>
+<p><img src="![to-to-list](https://github.com/user-attachments/assets/c613909c-b102-450c-8ba7-fd8a7f344b00)"></p>
